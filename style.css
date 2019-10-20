@@ -1,0 +1,362 @@
+body{
+	width: 100%;
+	
+}
+a{
+	text-decoration: none
+}
+header{
+	width: 100%;
+
+}
+.logo{
+	height: 100px;
+	margin-left:100px;
+	padding: 10px;
+	background-color: #f6f9f9;
+	display: flex;
+	align-items: flex-end;
+}
+.logo img{
+	height: 30px;
+	width: 30px;
+}
+.sign{
+	width: 104px;
+    height: 22px;
+    color: #2d3950;
+    font-family: Lato;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+	/* Text style for "STRICT" */
+	letter-spacing: 0.75px;
+}
+.bgimg{
+	width: 100%;
+	height: 800px;
+	background: url(img/Image.png) no-repeat center center fixed;
+	background-size:cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bgimg h1{
+	/* Style for "STRICT" */
+	width: 415px;
+	height: 89px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 120px;
+	font-weight: 700;
+	line-height: 47px;
+	text-transform: uppercase;
+	/* Text style for "S, TRICT" */
+	letter-spacing: 3px;
+}
+.strict{
+	/* Style for "STRICT" */
+	margin:0 auto;
+	width: 415px;
+	height: 89px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 120px;
+	font-weight: 700;
+	line-height: 47px;
+	text-transform: uppercase;
+	/* Text style for "S, TRICT" */
+	letter-spacing: 3px;
+}
+.line{
+	width: 600px;
+	height: 2px;
+	background-color: #15a4fa;
+	border:none;
+}
+.wrapper p{
+	/* Style for "STRICT is" */
+	margin: 0 auto;
+	width: 558px;
+	height: 17px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 47px;
+	/* Text style for "STRICT is" */
+	letter-spacing: 0.5px;
+	margin-bottom: 100px
+}
+.link_action{
+	opacity: 1;
+	margin: 0 auto;
+	width: 176px;
+	height: 54px;
+	border-radius: 2px;
+	border: 1px solid #15a4fa;
+}
+.link_action a {
+	/* Style for "Call to ac" */
+	margin-left: 30px;
+	width: 108px;
+	height: 13px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 47px;
+	/* Text style for "Call to ac" */
+	letter-spacing: 0.45px;
+}
+.link_more{
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.link_more img{
+	width: 20px;
+	height: 12px;
+	color: #ffffff;
+	font-family: "Font Awesome";
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 47px;
+	/* Text style for "," */
+	letter-spacing: 0.88px;
+}
+
+.simple{
+	width: 100%;
+	height: 340px;
+	background-color: #f6f9f9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.simple h1{
+	margin-bottom: 20px;
+	width: 388px;
+	height: 37px;
+	color: #2d3950;
+	font-family: Lato;
+	font-size: 40px;
+	font-weight: 400;
+	/* Text style for "Simple & p" */
+	letter-spacing: 1px;
+	clear: both;
+}
+.simple p{
+	/* Style for "Designers" */
+	width: 1101px;
+	height: 81px;
+	color: #999999;
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	/* Text style for "D, esigner" */
+	letter-spacing: 0.5px;
+}
+
+.devices{
+	width: 100%;
+	height: 340px;
+	background-color: #ffffff;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.icons{
+	width: 316px;
+}
+.icons img{
+	display: block;
+	flex-direction: row;
+	margin: 0 auto;
+	width: 30%;
+	height: 100px;
+	border-radius: 2px;
+}
+.icons h1{
+	margin: 10px auto;
+	width: 249px;
+	height: 20px;
+	color: #2d3950;
+	font-family: Lato;
+	font-size: 22px;
+	font-weight: 400;
+	/* Text style for "O, ptimize" */
+	letter-spacing: 0.55px
+}
+.icons p{
+	margin: 0 auto;
+	width: 255px;
+	height: 36px;
+	color: #999999;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+	/* Text style for "STRICT has" */
+	letter-spacing: 0.38px;
+}
+.gallery{
+	height: 900px;
+	background-color: #f6f9f9;
+}
+.showcase{
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	margin:100px 0 100px 0;
+	
+}
+.showcase h1{
+	width: 574px;
+	height: 37px;
+	color: #2d3950;
+	font-family: Lato;
+	font-size: 41px;
+	font-weight: 400;
+	/* Text style for "Showcase y" */
+	letter-spacing: 1.02px;
+	margin-bottom: 20px;
+}
+.showcase p{
+	/* Style for "Contact me" */
+	width: 210px;
+	height: 14px;
+	color: #909090;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+	/* Text style for ", Contact" */
+	letter-spacing: 0.38px;
+}
+.photo img{
+	margin: 0 10px 10px 10px;
+}
+					/*                              Проблемные участки                   */
+.form_site input{
+	display: block;
+}
+.form_site input[type=checkbox]{
+	display: inline;
+}
+.forma{
+	background-color: #2d3950;
+}
+.form_site{
+	background: url(img/Layer_36.png) no-repeat center top fixed;
+     background-size: cover;
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.form_site h1{
+	// Style for "Stay with"
+	width: 222px;
+	height: 37px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 41px;
+	font-weight: 400;
+	// Text style for "Stay with"
+	letter-spacing: 1.02px;
+}
+.form_site p{
+	width: 198px;
+	height: 14px;
+	color: #999999;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+	// Text style for "W, e ensur"
+	letter-spacing: 0.38px;
+	margin-bottom: 20px;
+}
+.date{
+	width: 553px;
+	height: 60px;
+	border-radius: 2px;
+	border: 1px solid #999999;
+	background-color: #f6f9f9;
+}
+.form_site input,textarea{
+	background-color:Transparent;
+	margin-bottom:10px;
+	opacity:0.3;
+}
+#comment{
+	// Style for "Rounded Re"
+	background-color:Transparent;
+	display: block;
+	width: 553px;
+	height: 160px;
+	border-radius: 2px;
+	border: 1px solid #999999;
+}
+
+button{
+	margin-left:200px;
+	min-height: 45px;
+	border-radius: 2px;
+	border: 1px solid #15a4fa;
+    background-color: Transparent;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	width: 140px;
+	color: white;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 47px;
+	// Text style for "Send"
+}
+label{
+	width: 149px;
+	height: 11px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: 400;
+	/* Text style for "S, ubscrib" */
+	letter-spacing: 0.38px;
+}
+/*                              Проблемные участки                   */
+.bottom_site{
+	display: flex;
+	align-items: center;
+	width: 1600px;
+	height: 90px;
+	background-color: #f6f9f9;
+}
+.bottom_site p{
+	margin-left: 20px;
+	width: 168px;
+	height: 14px;
+	color: #999999;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: 400;
+	/* Text style for "Copyritht" */
+	letter-spacing: 0.38px;
+}
+.links{
+	margin-left:auto
+}
+.links .networks{
+	width: 40px;
+	height: 40px;
+	border-radius: 2px;
+	background-color: #15a4fa;
+}
